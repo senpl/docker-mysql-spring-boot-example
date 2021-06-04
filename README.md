@@ -13,10 +13,12 @@ ADD target/users-mysql.jar users-mysql.jar
 EXPOSE 8086
 ENTRYPOINT ["java", "-jar", "users-mysql.jar"]`
 
-4. Using the Dockerfile create the Docker image.
+4. From IDE run maven install
+
+5. Using the Dockerfile create the Docker image.
 From the directory of Dockerfile - `docker build . -t users-mysql`
 
-5. Run the Docker image (users-mysql) created in #4.
+6. Run the Docker image (users-mysql) created in #4.
 `docker build . -t users-mysql`
 
 ## Useful Docker commands
