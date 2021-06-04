@@ -18,8 +18,8 @@ ENTRYPOINT ["java", "-jar", "users-mysql.jar"]`
 5. Using the Dockerfile create the Docker image.
 From the directory of Dockerfile - `docker build . -t users-mysql`
 
-6. Run the Docker image (users-mysql) created in #4.
-`docker build . -t users-mysql`
+6. Run the Docker image (users-mysql) created in #5.
+`docker run . -t users-mysql`
 
 ## Useful Docker commands
 - `docker images`
